@@ -10,9 +10,12 @@
 	<div class="container" ng-controller="AppCtrl">
 		<h1>AngulAir</h1>
 		<ul>
-			<li ng-repeat="airport in airports">{{airport.code}}
-			 - {{airport.city}}</li>
+			<li ng-repeat="airport in airports">
+				<a href="" ng-click="setAirport(airport.code)">{{airport.code}} - {{airport.city}}</a>
+			</li>
 		</ul>
+
+		<p ng-show="currentAirport">Current airport: {{currentAirport.name}}</p>
 	</div>
 </body>
 </html>
