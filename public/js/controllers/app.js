@@ -30,13 +30,8 @@ function AppCtrl ($scope) {
   };
   $scope.sidebarURL = 'partials/airport.html';
   $scope.currentAirport = null;
-  $scope.editFormURL = 'partials/editForm.html'
 
   $scope.setAirport = function (code) {
     $scope.currentAirport = $scope.airports[code];
-  };
-
-  $scope.editAirport = function (code) {
-    $scope.editing = $scope.airports[code];
   };
 }
