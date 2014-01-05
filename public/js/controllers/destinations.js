@@ -1,5 +1,5 @@
-function DestinationsCtrl ($scope) {
- 	$scope.setActive('destinations');
+function DestinationsCtrl ($scope, Airport) {
+  $scope.setActive('destinations');
 
   $scope.sidebarURL = 'partials/airport.html';
   $scope.currentAirport = null;
@@ -7,4 +7,6 @@ function DestinationsCtrl ($scope) {
   $scope.setAirport = function (code) {
     $scope.currentAirport = $scope.airports[code];
   };
+
+  $scope.airports = Airport.query();
 }
