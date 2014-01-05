@@ -6,4 +6,7 @@ function AppCtrl ($scope) {
 
     $scope[type + 'Active'] = 'active';
   }
+
+
+
 }
