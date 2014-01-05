@@ -5,6 +5,6 @@ angular.module('airlineServices', ['ngResource'])
 	.factory('Flights', function  ($resource) {
 		return $resource('/flights');
 	})
-  .factory('Reservations', function  ($resource) {
-    return $resource('/reservations');
-  });
+	.factory('Reservations', function  ($resource) {
+		return $resource('/reservations');
+	});
