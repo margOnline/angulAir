@@ -13,8 +13,8 @@ function AppCtrl ($scope) {
       "name": "Portland International Airport",
       "city": "Portland",
       "destinations": [
-        "LAX",
-        "SFO"
+        "STL",
+        "MCI"
       ]
     },
     "STL": {
@@ -22,8 +22,8 @@ function AppCtrl ($scope) {
       "name": "Lambert-St. Louis International Airport",
       "city": "St. Louis",
       "destinations": [
-        "LAX",
-        "MKE"
+        "PDX",
+        "MCI"
       ]
     },
     "MCI": {
@@ -31,8 +31,8 @@ function AppCtrl ($scope) {
       "name": "Kansas City International Airport",
       "city": "Kansas City",
       "destinations": [
-        "LAX",
-        "DFW"
+        "STL",
+        "PDX"
       ]
     }
   };
